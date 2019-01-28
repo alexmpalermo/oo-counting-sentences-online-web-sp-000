@@ -27,6 +27,6 @@ end
   end
 
   def count_sentences
-self.count {|x| x(/[\w][!.?]/)}
+self.count(/[\w][!.?]/)
 end
 end
