@@ -27,6 +27,6 @@ end
   end
 
   def count_sentences
-self.count
+self.count {|x| x == (//)
   end
 end
